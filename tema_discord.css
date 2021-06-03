@@ -1,0 +1,124 @@
+.platform-win .typeWindows-1za-n7 {
+    height: 9px;
+    margin-top: 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+  }
+  .platform-win .winButtonClose-1HsbF- {
+    border-top-right-radius: var(--TB-tr-roundness);
+  }
+  .platform-win .winButton-iRh8-Z {
+    position: relative;
+    top: calc(var(--TB-position-top, 0px) - 1px);
+    right: var(--TB-position-right, 0px);
+    height: var(--TB-height, 48px);
+    width: var(--TB-width, 40px);
+  }
+  .platform-win .winButton-iRh8-Z:not(.winButtonClose-1HsbF-):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .platform-win .container-1r6BKw {
+    padding-right: var(--TB-header-padding, 125px);
+  }
+  .platform-win .wordmarkWindows-1v0lYD {
+    display: none;
+  }
+  .platform-win #app-mount.bd-detached-editor .winButton-iRh8-Z {
+    right: 30%;
+  }
+
+  /* TITLEBAR */
+.typeWindows-1za-n7 {
+    height: 18px;
+    width: 100vw;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+    box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * .6));
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm {
+    position: static;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    order: 1;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm:before, .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+    margin-left: 3px;
+    font-weight: 600;
+    white-space: nowrap;
+    order: 1;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+    content: "ClearVision";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-shadow: 0 0 3px #000;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+    content: "v6.1.0";
+    color: rgba(255, 255, 255, 0.3);
+    font-family: var(--code-font);
+    font-size: 10px;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
+    filter: drop-shadow(0 0 5px var(--main-color));
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm > svg > path {
+    fill: var(--main-color);
+  }
+  .typeWindows-1za-n7 > .winButton-iRh8-Z {
+    top: -2px;
+    opacity: 0.7;
+    transition: all 0.15s ease-in-out;
+  }
+  .typeWindows-1za-n7 > .winButton-iRh8-Z:hover {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 1;
+  }
+  .typeWindows-1za-n7 > .winButtonClose-1HsbF-:hover {
+    background: var(--danger-color);
+  }
+  
+  .typeMacOS-3EmCyP {
+    width: 70px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButton-c_Adir {
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .typeMacOS-3EmCyP > .macButtons-2MuSAC {
+    padding: 0 10px;
+  }
+  .typeMacOS-3EmCyP:before, .typeMacOS-3EmCyP:after {
+    margin: 0 2px;
+    font-size: 10px;
+    order: 1;
+  }
+  .typeMacOS-3EmCyP:before {
+    content: "CV";
+    color: var(--main-color);
+    font-weight: 700;
+    text-shadow: 0 0 3px;
+  }
+  .typeMacOS-3EmCyP:after {
+    content: "6.1.0";
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+
