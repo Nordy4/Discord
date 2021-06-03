@@ -119,12 +119,12 @@
   .typeMacOS-3EmCyP:after {
     content: "6.1.0";
     color: rgba(255, 255, 255, 0.3);
-  }
+  }https://github.com/Nordy4/Discord/blob/main/tema_discord.css
   
 /* CHANNEL LIST */
 .sidebar-2K8pFh {
   width: var(--channels-width);
-  background: rgba(0, 0, 0, calc(var(--background-shading) * .3));
+  background: rgba(0, 0, 0, calc(var(--gradient-primary) * .3));
 }
 .platform-win .sidebar-2K8pFh {
   border-radius: 0;
