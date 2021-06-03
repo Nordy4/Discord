@@ -121,4 +121,39 @@
     color: rgba(255, 255, 255, 0.3);
   }
   
+/* CHANNEL LIST */
+.sidebar-2K8pFh {
+  width: var(--channels-width);
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .3));
+}
+.platform-win .sidebar-2K8pFh {
+  border-radius: 0;
+}
+
+.container-3w7J-x {
+  background: transparent;
+}
+.container-3w7J-x .container-2Rl01u {
+  z-index: 2;
+}
+.container-3w7J-x .header-2o-2hj {
+  height: 48px;
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .15));
+  box-shadow: 0 2px 10px rgba(0, 0, 0, calc(var(--background-shading) * .3));
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 0 3px #000;
+}
+.container-3w7J-x .header-2o-2hj:hover, .container-3w7J-x .popout-open.header-2o-2hj {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .3));
+}
+.container-3w7J-x .animatedContainer-1NSq4T {
+  background: transparent;
+  box-shadow: none;
+}
+.container-3w7J-x .bannerImage-3KhIJ6 {
+  width: var(--channels-width);
+  -webkit-mask: linear-gradient(to bottom, #000, transparent);
+  mask: linear-gradient(to bottom, #000, transparent);
+}
 
